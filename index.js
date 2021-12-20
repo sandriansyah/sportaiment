@@ -200,8 +200,8 @@ function getDistenceTime(time) {
     }
 }
 
-// setInterval(() => {
+setInterval(() => {
 
-//     renderBlog()
+    renderBlog()
 
-// }, 5000)
+}, 5000)
