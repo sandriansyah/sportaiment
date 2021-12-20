@@ -29,19 +29,19 @@ function navbarVisitContactPage() {
     visitPageContact.innerHTML = `<a id="contact-navbar" class="color-contact" href="contactForm.html">Contact Me<a/>`
 }
 
-document.getElementById('nav-toggle').addEventListener("click", slideNavbar)
+// document.getElementById('nav-toggle').addEventListener("click", slideNavbar)
 
-function slideNavbar() {
+// function slideNavbar() {
 
-    const navbarlistToggle = document.getElementById('navbar-list')
-    navbarlistToggle.innerHTML = `<div id="navbar-list" class="navbar-list">
-                <ul class="slide">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contactForm.html">Contact Me</a></li>
-                </ul>
-            </div>`
-}
+//     const navbarlistToggle = document.getElementById('navbar-list')
+//     navbarlistToggle.innerHTML = `<div id="navbar-list" class="navbar-list">
+//                 <ul class="slide">
+//                     <li><a href="index.html">Home</a></li>
+//                     <li><a href="blog.html">Blog</a></li>
+//                     <li><a href="contactForm.html">Contact Me</a></li>
+//                 </ul>
+//             </div>`
+// }
 
 function submitForm() {
 
@@ -98,7 +98,7 @@ function addBlog(event) {
     // console.log(blog)
 
     blogs.push(blog)
-    // console.log(blogs)
+    console.log(blogs)
     renderBlog()
 }
 
